@@ -1,0 +1,20 @@
+#productos-container{ 
+    display: flex; 
+  
+    justify-content: space-around;
+    max-width: 2000px; 
+    margin: auto; 
+   
+    gap: 20px;
+
+} 
+.tarjeta-producto{ 
+    max-width: 1800px; 
+    text-align: center; 
+    background-color: chocolate; 
+    padding: 10px;
+} 
+.tarjeta-producto img{ 
+    width: 100%; 
+    aspect-ratio: 1.5;
+}

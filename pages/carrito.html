@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="../css/style.css">    
+    <link rel="stylesheet" href="../css/carrito.css">   
+    <script src="../appcarrito.js" defer ></script>
+    <script src="../carritoservice.js" defer></script>  
+    <title>Tienda Virtual Carniceria Los Montes</title>
+</head>
+<body> 
+    <header> 
+        <nav> 
+            <a href="../index.html"><img src="../img/logo-carniceria.jpeg" id="logo" alt="Logocarniceria"></a> 
+            <div> 
+                <a href="../carrito.html" id="Carrito"><img src="../img/carrito-de-supermercado.png" alt="Carrito de compras"><span id="cuenta-carrito">0</span></a>
+            </div>
+        </nav>
+    </header> 
+    <h1>Tienda Virtual Carniceria Los Montes</h1>  
+    <main>  
+        <p id="carrito-vacio">CARRITO VACIO    <a href="../index.html">Agrega Aquí</a></p>
+        <section id="productos-container"></section>
+    </main> 
+        <section id="totales"> 
+            <p>Total Unidades: <span id="unidades">0</span></p>  
+            <p>Total Precio: $ <span id="precio">0</span></p> 
+            <button >Comprar</button> 
+            <button id="reiniciar">Reiniciar</button>
+    </section>
+</body>
+</html>
