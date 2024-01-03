@@ -3,7 +3,8 @@ const unidadesElement = document.getElementById("unidades");
 const precioElement = document.getElementById("precio"); 
 const carritoVacioElement = document.getElementById("carrito-vacio"); 
 const totalesElements = document.getElementById("totales"); 
-const reiniciarCarritoElement = document.getElementById("reiniciar");
+const reiniciarCarritoElement = document.getElementById("reiniciar"); 
+const comprarCarritoElement = document.getElementById("comprar"); 
 
 
 function crearTarjetas() { 
@@ -83,4 +84,12 @@ function reiniciarCarrito(){
     actualizarTotales();  
     revisarVacio();
     crearTarjetas();  
+} 
+
+/*Boton Confirmacion de Compra*/ 
+comprarCarritoElement.onclick = () => { 
+    Swal.fire({ 
+        title: 'Carniceria Los Montes  Gracias por su Compra' ,
+        icon:'success',
+    })
 }
